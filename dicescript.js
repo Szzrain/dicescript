@@ -45291,7 +45291,7 @@ $packages["github.com/sealdice/dicescript"] = (function() {
 		vm.upCtx = ctx;
 		vm.NumOpCount = (x = ctx.NumOpCount, new $Int64(x.$high + 0, x.$low + 100));
 		ctx.NumOpCount = vm.NumOpCount;
-		if ((x$1 = vm.NumOpCount, (x$1.$high > 0 || (x$1.$high === 0 && x$1.$low > 30000)))) {
+		if ((x$1 = vm.NumOpCount, (x$1.$high > 0 || (x$1.$high === 0 && x$1.$low > 3000000)))) {
 			vm.Error = errors.New("\xE5\x85\x81\xE8\xAE\xB8\xE7\xAE\x97\xE5\x8A\x9B\xE4\xB8\x8A\xE9\x99\x90");
 			ctx.Error = vm.Error;
 			$s = -1; return ptrType.nil;
@@ -45357,7 +45357,7 @@ $packages["github.com/sealdice/dicescript"] = (function() {
 		vm.upCtx = ctx;
 		vm.NumOpCount = (x = ctx.NumOpCount, new $Int64(x.$high + 0, x.$low + 100));
 		ctx.NumOpCount = vm.NumOpCount;
-		if ((x$1 = vm.NumOpCount, (x$1.$high > 0 || (x$1.$high === 0 && x$1.$low > 30000)))) {
+		if ((x$1 = vm.NumOpCount, (x$1.$high > 0 || (x$1.$high === 0 && x$1.$low > 3000000)))) {
 			vm.Error = errors.New("\xE5\x85\x81\xE8\xAE\xB8\xE7\xAE\x97\xE5\x8A\x9B\xE4\xB8\x8A\xE9\x99\x90");
 			ctx.Error = vm.Error;
 			$s = -1; return ptrType.nil;
@@ -45777,7 +45777,7 @@ $packages["github.com/sealdice/dicescript"] = (function() {
 		numOpCountAdd = (function(ctx, dcState, details, diceStateIndex, diceStates, e, lastPop, stackPop, wodState) { return function(count) {
 			var count, x, x$1, x$2;
 			e[0].Context.NumOpCount = (x = e[0].Context.NumOpCount, x$1 = count, new $Int64(x.$high + x$1.$high, x.$low + x$1.$low));
-			if ((x$2 = e[0].Context.NumOpCount, (x$2.$high > 0 || (x$2.$high === 0 && x$2.$low > 30000)))) {
+			if ((x$2 = e[0].Context.NumOpCount, (x$2.$high > 0 || (x$2.$high === 0 && x$2.$low > 3000000)))) {
 				ctx[0].Error = errors.New("\xE5\x85\x81\xE8\xAE\xB8\xE7\xAE\x97\xE5\x8A\x9B\xE4\xB8\x8A\xE9\x99\x90");
 				return true;
 			}
